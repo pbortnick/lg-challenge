@@ -16,7 +16,7 @@ const NavBar = () => {
         <li id="nav">AGENTS</li>
         <li id="nav">CAREERS</li>
 
-        <li id="sign-in"><button>Sign In</button></li>
+        <li id="sign-in"><button id="sign-in-button">SIGN IN</button></li>
 
       </ul>
 

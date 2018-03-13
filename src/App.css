@@ -1,3 +1,12 @@
 .App {
   text-align: center;
 }
+
+.img-container { position: relative; }
+
+.img-container .hero_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

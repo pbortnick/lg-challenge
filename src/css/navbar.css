@@ -14,14 +14,26 @@ ul {
 
 #beacon_logo {
   float: left;
+  padding-left: 10px;
 }
 
 #sign-in {
   float: right;
+  padding-right: 10px;
+}
+
+#sign-in-button {
+  background: #6a64fc;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
 }
 
 .Navigation{
   background-color: #2c333c;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

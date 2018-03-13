@@ -7,10 +7,39 @@
   z-index: 1;
 }
 
-.title{
-
+.title-container {
+  position: relative;
 }
 
-.subtitle {
+.title-container .title{
+  position: absolute;
+  top: 50px;
+  width: 200px;
+  color:white;
+  z-index: 1;
+  margin: 0 auto;
+}
 
+.title-container .subtitle {
+  padding: 15px;
+  background: white;
+  background-clip: padding-box;
+  position: absolute;
+  top: 100px;
+  width: 400px;
+  z-index: 1;
+  margin: 0 auto;
+  border-radius: 1px;
+}
+
+.title-container .people {
+  background: white;
+  background-clip: padding-box;
+  position: absolute;
+  top: 150px;
+  width: auto;
+  z-index: 1;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow:  0 0 10px  rgba(0,0,0,0.6);
 }

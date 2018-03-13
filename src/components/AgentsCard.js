@@ -6,6 +6,7 @@ const AgentsCard = ({ agents }) => (
     <img src={agents.photo} alt={agents.title} />
     <div className="name">{agents.name}</div>
     <div className="position">{agents.position}</div>
+    <div className="learn-more">LEARN MORE</div>
   </div>
 )
 

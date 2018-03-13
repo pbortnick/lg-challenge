@@ -6,6 +6,7 @@ const ManagementCard = ({ management }) => (
     <img src={management.photo} alt={management.title} />
     <div className="name">{management.name}</div>
     <div className="position">{management.position}</div>
+    <div className="learn-more">LEARN MORE</div>
   </div>
 )
 

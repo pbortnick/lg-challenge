@@ -12,6 +12,22 @@
   justify-content: space-between;
 }
 
+div.learn-more {
+    display: none;
+}
+
+.AgentsCard:hover .learn-more {
+    display: block;
+}
+
+.LeadersCard:hover .learn-more {
+    display: block;
+}
+
+.ManagementCard:hover .learn-more {
+    display: block;
+}
+
 .AgentsCard:hover, .LeadersCard:hover, .ManagementCard:hover {
   height: 400px;
   width: 200px;

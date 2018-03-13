@@ -47,7 +47,7 @@ class ManagementTeam extends Component {
   render() {
     return (
       <div className="ManagementTeamContainer">
-        <h1>Management Team</h1>
+        <div className="teamHeader">Management Team</div>
         <div className="managementCards">
           {managementTeam.map(management => <ManagementCard management={management} />)}
           </div>

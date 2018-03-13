@@ -5,6 +5,7 @@ import Title from './components/Title';
 import ManagementTeam from './containers/ManagementTeam';
 import LeadersTeam from './containers/LeadersTeam';
 import AgentsTeam from './containers/AgentsTeam';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <ManagementTeam />
         <LeadersTeam />
         <AgentsTeam />
+        <Footer />
       </div>
     );
   }

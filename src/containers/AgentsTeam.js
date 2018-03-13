@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import AgentsCard from '../components/AgentsCard';
 import aaron from '../images/aaron.png';
 import '../css/flex.css';
+import Slider from "react-slick";
+
 
 const agentsTeam = [
   { photo: aaron,
@@ -41,12 +43,19 @@ const agentsTeam = [
 class AgentsTeam extends Component {
 
   render() {
+    var settings = {
+      dots: true,
+      speed: 500,
+      slidesToShow: 8,
+      slidesToScroll: 8
+    };
+
     return (
       <div className="AgentsTeamContainer">
-        <h1>Team Agents</h1>
-        <div className="agentsCards">
+        <div className="teamHeader">Team Agents</div>
+        <Slider {...settings}>
           {agentsTeam.map(agents => <AgentsCard agents={agents} />)}
-        </div>
+        </Slider>
       </div>
     )
   }

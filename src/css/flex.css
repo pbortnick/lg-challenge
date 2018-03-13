@@ -1,4 +1,11 @@
-.managementCards, .agentsCards, .leadersCards {
+.managementCards {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.slick-track {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -8,4 +15,17 @@
 .ManagementTeamContainer, .AgentsTeamContainer {
   background-color: #eff2f6;
   padding-top: 15px;
+}
+
+.name, .teamHeader {
+  color: #3b4757;
+}
+
+.position {
+  color: #8795a9;
+}
+
+.teamHeader {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

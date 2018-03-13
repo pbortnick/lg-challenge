@@ -1,0 +1,9 @@
+input {
+  display: inline;
+}
+
+.Footer{
+  background-color: #2c333c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

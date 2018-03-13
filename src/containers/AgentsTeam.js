@@ -40,6 +40,11 @@ const agentsTeam = [
   }
 ];
 
+
+const handleHover = () => {
+
+}
+
 class AgentsTeam extends Component {
 
   render() {
@@ -54,7 +59,7 @@ class AgentsTeam extends Component {
       <div className="AgentsTeamContainer">
         <div className="teamHeader">Team Agents</div>
         <Slider {...settings}>
-          {agentsTeam.map(agents => <AgentsCard agents={agents} />)}
+          {agentsTeam.map(agents => <AgentsCard onmouseover={handleHover.bind(this)} agents={agents}/>)}
         </Slider>
       </div>
     )

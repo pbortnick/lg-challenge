@@ -12,6 +12,12 @@
   justify-content: space-between;
 }
 
+.AgentsCard:hover, .LeadersCard:hover, .ManagementCard:hover {
+  height: 400px;
+  width: 200px;
+  padding: 5px;
+}
+
 .ManagementTeamContainer, .AgentsTeamContainer {
   background-color: #eff2f6;
   padding-top: 15px;

@@ -9,21 +9,18 @@ import redandpurplepeople from '../images/redandpurplepeople.png';
 const Title = () => {
   return (
     <div className="title-container">
-      <div className="img-container">
         <img className="hero" src={hero} alt="hero" />
         <img className="hero_overlay" src={hero_overlay} alt="hero_overlay" />
-      </div>
 
-      <div className="title">TEAM & AGENTS</div>
-
+        <p className="title">TEAM & AGENTS</p>
 
 
-      <div className="description">
-        Lg Fairmont maintains an intense and rigorous hiring process thus our clients can be assured that they areworking with a professional of the highest skill and integrity. Our agents are highly credentialed and haveachieved law, master degrees, and MBA degrees.
-      </div>
 
-      <img className="people" src={redandpurplepeople} alt="redandpurplepeople" />
+        <p className="description">
+          Lg Fairmont maintains an intense and rigorous hiring process thus our clients can be assured that they areworking with a professional of the highest skill and integrity. Our agents are highly credentialed and haveachieved law, master degrees, and MBA degrees.
+        </p>
 
+        <img className="people" src={redandpurplepeople} alt="redandpurplepeople" />
 
 
 

@@ -4,53 +4,51 @@
   height: 300px;
 }
 
-.img-container .hero_overlay {
+.hero_overlay {
   position: absolute;
   left: 0;
   z-index: 1;
 }
 
-.title-container {
-  display: table;
-  margin: 0 auto;
-}
-
 .title {
-  color: white;
   position: absolute;
-  top: 20%;
-  left: 35%;
-  font-size: 50px;
+  top: 100px;
+  right:0;
+  left:0;
   z-index: 2;
+  color: white;
+  font-size: 50px;
 }
 
 .description {
   position: absolute;
-  top: 40%;
-  left: 35%;
+  top: 250px;
+  right:0;
+  left:0;
   z-index: 2;
   background: white;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  border-radius: 2px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
   text-align: center;
-  border-radius: 5px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-right: 80px;
-  padding-left: 80px;
-  width: 700px;
-  display: table;
-  margin: 0 auto;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .people {
-  position: absolute;
+  position: relative;
   background: white;
   border-radius: 50%;
   box-shadow:  0 0 10px  rgba(0,0,0,0.6);
   width: 50px;
   height: 50px;
-  z-index: 2;
-  top: 51%;
+  z-index: 3;
+  padding: 10px;
+  top: 10px;
+}
+
+.title-container {
+  background-color: #eff2f6;
 }

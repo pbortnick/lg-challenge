@@ -39,6 +39,10 @@ const managementTeam = [
   { photo: aaron,
     name: "Jason Decastro",
     position: "Lead Engineer"
+  },
+  { photo: aaron,
+    name: "Megan Madden",
+    position: "Closing Department Manager"
   }
 ];
 

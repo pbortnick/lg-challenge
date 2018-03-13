@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Title from './components/Title';
+import ManagementTeam from './containers/ManagementTeam';
+import LeadersTeam from './containers/LeadersTeam';
+import AgentsTeam from './containers/AgentsTeam';
 
 class App extends Component {
   render() {
@@ -11,6 +14,9 @@ class App extends Component {
           <Navbar />
         </header>
         <Title />
+        <ManagementTeam />
+        <LeadersTeam />
+        <AgentsTeam />
       </div>
     );
   }

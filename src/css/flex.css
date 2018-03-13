@@ -1,0 +1,11 @@
+.managementCards, .agentsCards, .leadersCards {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.ManagementTeamContainer, .AgentsTeamContainer {
+  background-color: #eff2f6;
+  padding-top: 15px;
+}

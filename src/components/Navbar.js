@@ -7,19 +7,14 @@ import beacon_logo from '../images/beacon_logo.svg';
 const Navbar = () => {
   return (
     <div className="Navigation">
-      <ul>
-        <li id="beacon_logo"><img src={beacon_logo} className="navbar-logo" alt="beacon_logo" /></li>
-
-        <li id="nav">BUY & RENT</li>
-        <li id="nav">SELL</li>
-        <li id="nav">LANDLORDS</li>
-        <li id="nav">AGENTS</li>
-        <li id="nav">CAREERS</li>
-
-        <li id="sign-in"><button id="sign-in-button">SIGN IN</button></li>
-
+      <img src={beacon_logo} id="inline" className="beacon_logo" alt="beacon_logo" />
+      <ul><li id="inline" className="nav">BUY & RENT</li>
+        <li id="inline" className="nav">SELL</li>
+        <li id="inline" className="nav">LANDLORDS</li>
+        <li id="inline" className="nav">AGENTS</li>
+        <li id="inline" className="nav">CAREERS</li>
       </ul>
-
+      <button className="sign-in-button">SIGN IN</button>
     </div>
   );
 }

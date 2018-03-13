@@ -7,3 +7,31 @@ input {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
+#name-sort{
+ background-image: url('../images/search.svg');
+ background-repeat: no-repeat;
+ text-indent: 30px;
+}
+
+#language-sort{
+ background-image: url('../images/arrow_down.svg');
+ background-repeat: no-repeat;
+ background-size: 15px;
+ background-position: 280px 15px;
+}
+
+#name-sort, #language-sort {
+  height: 30px;
+  width:300px;
+  margin-right: 30px;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  height: 37px;
+  width:120px;
+  background: #6a64fc;
+  border-radius: 4px;
+  color: white;
+}

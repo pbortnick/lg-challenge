@@ -4,7 +4,7 @@ import beacon_logo from '../images/beacon_logo.svg';
 
 // If active links, would use NavLink from react-router-dom with <NavLink className="NavLink"to="/">
 
-const NavBar = () => {
+const Navbar = () => {
   return (
     <div className="Navigation">
       <ul>
@@ -24,4 +24,4 @@ const NavBar = () => {
   );
 }
 
-export default NavBar;
+export default Navbar;

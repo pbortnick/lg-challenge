@@ -1,3 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
 .App {
   text-align: center;
+  font-family: "Lato";
+}
+
+.ManagementTeamContainer, .AgentsTeamContainer {
+  background-color: #eff2f6;
+}
+
+.name, .teamHeader {
+  color: #3b4757;
+}
+
+.teamHeader {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+}
+
+.position {
+  padding-top: 5px;
+  color: #8795a9;
+  font-size: 14px;
+}
+
+.EmployeeCard {
+  box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+}
+
+.cardSubtitle {
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+div.learn-more {
+    display: none;
+    color: #6a64fc;
+    font-size: 12px;
+}
+
+.EmployeeCard:hover .learn-more {
+    display: block;
+}
+
+.EmployeeCard:hover {
+  padding: 10px;
 }

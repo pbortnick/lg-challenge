@@ -1,37 +1,28 @@
 /* @media(min-width:768px) {
 } */
-
-.ManagementTeamContainer, .AgentsTeamContainer {
-  background-color: #eff2f6;
-  padding-top: 15px;
+* {
+  box-sizing: border-box;
+  font-family: Arial;
 }
 
-.name, .teamHeader {
-  color: #3b4757;
-}
-
-.position {
-  color: #8795a9;
-}
-
-.EmployeeCard {
-  box-shadow:  0 0 10px  rgba(0,0,0,0.6);
-}
-
-div.learn-more {
-    display: none;
+.managementCards {
+  box-sizing: content-box;
+  width: 1200px;
+  right:0;
+  left:0;
+  position: relative;
 }
 
 .managementCards {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: center;
 }
 
 .managementCards > .EmployeeCard {
   margin: 10px;
 }
-
+/*
 .slick-track {
   display: flex;
   justify-content: space-between;
@@ -45,7 +36,7 @@ div.learn-more {
 
 .AgentsTeamContainer>.slick-slider>.slick-list>.slick-track > .EmployeeCard{
   margin: 10px;
-}
+} */
 /* .slick-track > .EmployeeCard {
   flex-basis: 25%
 } */
@@ -54,19 +45,6 @@ div.learn-more {
   display: flex;
   flex-wrap: wrap;
   }
-
-
-
-
-/* .EmployeeCard:hover .learn-more {
-    display: block;
-}
-
-.EmployeeCard:hover {
-  height: 400px;
-  width: 200px;
-  padding: 5px;
-}
 
 .teamHeader {
   padding-top: 40px;

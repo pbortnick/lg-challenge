@@ -1,0 +1,15 @@
+.EmployeeCard {
+  display: inline-block;
+  margin: 10px;
+}
+
+.slick-dots {
+  margin-left: 0;
+}
+
+li img {
+  filter: grayscale(100%);
+}
+li.slick-active {
+  filter: grayscale(100%);
+}

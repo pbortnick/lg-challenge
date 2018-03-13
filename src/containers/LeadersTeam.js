@@ -4,6 +4,8 @@ import aaron from '../images/aaron.png';
 import '../css/flex.css';
 import Slider from "react-slick";
 import ReactDOM from "react-dom";
+import '../css/slick.css';
+
 
 const leadersTeam = [
   { photo: aaron,
@@ -25,18 +27,6 @@ const leadersTeam = [
   { photo: aaron,
     name: "Jordan March",
     position: "Director of Sales / Associate Broker",
-  },
-  { photo: aaron,
-    name: "Jillian Vaccaro",
-    position: "Sales and Leasing Team Manager",
-  },
-  { photo: aaron,
-    name: "Evan Roth",
-    position: "Roth Team Leader",
-  },
-  { photo: aaron,
-    name: "Joe Banda, MBA",
-    position: "Joe Banda Team Leader",
   }
 ];
 

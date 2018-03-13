@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ManagementCard from '../components/ManagementCard';
+import EmployeeCard from '../components/EmployeeCard';
 import aaron from '../images/aaron.png';
 import '../css/flex.css';
 
@@ -49,7 +49,7 @@ class ManagementTeam extends Component {
       <div className="ManagementTeamContainer">
         <div className="teamHeader">Management Team</div>
         <div className="managementCards">
-          {managementTeam.map(management => <ManagementCard management={management} />)}
+          {managementTeam.map(employee => <EmployeeCard employee={employee} />)}
           </div>
       </div>
     )

@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import AgentsCard from '../components/AgentsCard';
+import EmployeeCard from '../components/EmployeeCard';
 import aaron from '../images/aaron.png';
 import '../css/flex.css';
 import Slider from "react-slick";
-
 
 const agentsTeam = [
   { photo: aaron,
@@ -59,7 +58,7 @@ class AgentsTeam extends Component {
       <div className="AgentsTeamContainer">
         <div className="teamHeader">Team Agents</div>
         <Slider {...settings}>
-          {agentsTeam.map(agents => <AgentsCard onmouseover={handleHover.bind(this)} agents={agents}/>)}
+          {agentsTeam.map(employee => <EmployeeCard onmouseover={handleHover.bind(this)} employee={employee}/>)}
         </Slider>
       </div>
     )

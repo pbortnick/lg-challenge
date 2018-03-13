@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import LeadersCard from '../components/LeadersCard';
+import EmployeeCard from '../components/EmployeeCard';
 import aaron from '../images/aaron.png';
 import '../css/flex.css';
 import Slider from "react-slick";
@@ -54,7 +54,7 @@ class LeadersTeam extends Component {
       <div className="LeadersTeamContainer">
         <div className="teamHeader">Team Leaders</div>
           <Slider {...settings}>
-            {leadersTeam.map(leaders => <LeadersCard leaders={leaders} />)}
+            {leadersTeam.map(employee => <EmployeeCard employee={employee} />)}
           </Slider>
       </div>
     )

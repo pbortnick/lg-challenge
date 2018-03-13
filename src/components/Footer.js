@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="Footer">
       <form>
         <input id="name-sort" type="text" placeholder="Sort by Name" />
-        <input id="language-sort" type="text" placeholder="Sort by Language" />
+        <input id="language-sort" type="text" placeholder="  Sort by Language" />
         <input type="submit" placeholder="Search" />
       </form>
 

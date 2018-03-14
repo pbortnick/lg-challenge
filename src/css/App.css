@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
-
-
 * {
   text-align: center;
   font-family: "Lato";
@@ -8,6 +6,10 @@
 
 .ManagementTeamContainer, .AgentsTeamContainer {
   background-color: #eff2f6;
+}
+
+.AgentsTeamContainer {
+  padding-bottom: 20px;
 }
 
 .name, .teamHeader {
@@ -27,7 +29,10 @@
 }
 
 .EmployeeCard {
-  box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+  border: 5px solid #fff;
+  display: inline-block;
+  margin: 10px;
+  border: 0;
 }
 
 .cardSubtitle {
@@ -43,10 +48,11 @@ div.learn-more {
     padding-top: 2px;
 }
 
-.EmployeeCard:hover .learn-more {
+.CardContainer:hover .learn-more {
     display: block;
 }
 
-.EmployeeCard img:hover {
-  height: 100%;
+.CardContainer:hover {
+  transform: scaleY(1.03);
+  transform-origin: center;
 }

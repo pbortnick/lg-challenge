@@ -1,14 +1,11 @@
 
 * {
   box-sizing: border-box;
-  font-family: Arial;
 }
 
 .managementCards {
-  box-sizing: content-box;
   width: 1200px;
-  right:0;
-  left:0;
+
   position: relative;
 }
 

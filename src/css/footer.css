@@ -18,7 +18,7 @@ input {
  background-image: url('../images/arrow_down.svg');
  background-repeat: no-repeat;
  background-size: 15px;
- background-position: 280px 15px;
+ background-position: 280px 8px;
 }
 
 #name-sort, #language-sort {

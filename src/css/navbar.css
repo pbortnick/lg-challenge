@@ -15,7 +15,9 @@ ul {
 
 .beacon_logo {
   float: left;
-  margin-left: 10px;
+  left: 20px;
+  position: absolute;
+  top: 35px;
 }
 
 li {
@@ -33,9 +35,10 @@ li {
   border-radius: 2px;
   border: none;
   color: white;
-  margin-right: 10px;
   height: 30px;
-  margin-bottom: 30px;
+  right: 20px;
+  position: absolute;
+  top: 40px;
 }
 /*
 .Navigation{

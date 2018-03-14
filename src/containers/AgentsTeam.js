@@ -78,7 +78,8 @@ class AgentsTeam extends Component {
       dots: true,
       speed: 500,
       slidesToShow: 8,
-      slidesToScroll: 8
+      slidesToScroll: 8,
+      infinite: true
     };
 
     return (

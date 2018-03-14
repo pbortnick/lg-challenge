@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 
-.App {
+* {
   text-align: center;
   font-family: "Lato";
 }
@@ -40,12 +40,13 @@ div.learn-more {
     display: none;
     color: #6a64fc;
     font-size: 12px;
+    padding-top: 2px;
 }
 
 .EmployeeCard:hover .learn-more {
     display: block;
 }
 
-.EmployeeCard:hover {
-  padding: 10px;
+.EmployeeCard img:hover {
+  height: 100%;
 }

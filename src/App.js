@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+import Header from './components/Header';
 import Title from './components/Title';
 import ManagementTeam from './containers/ManagementTeam';
 import LeadersTeam from './containers/LeadersTeam';
@@ -11,7 +11,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
+        <header>
+          <Header />
+        </header>
         <Title />
         <ManagementTeam />
         <LeadersTeam />

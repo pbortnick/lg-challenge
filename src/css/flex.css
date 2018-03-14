@@ -1,5 +1,4 @@
-/* @media(min-width:768px) {
-} */
+
 * {
   box-sizing: border-box;
   font-family: Arial;
@@ -22,32 +21,3 @@
 .managementCards > .EmployeeCard {
   margin: 10px;
 }
-/*
-.slick-track {
-  display: flex;
-  justify-content: space-between;
-}
-
-.AgentsTeamContainer>.slick-slider>.slick-list>.slick-track{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.AgentsTeamContainer>.slick-slider>.slick-list>.slick-track > .EmployeeCard{
-  margin: 10px;
-} */
-/* .slick-track > .EmployeeCard {
-  flex-basis: 25%
-} */
-
-/* .agentsCards {
-  display: flex;
-  flex-wrap: wrap;
-  }
-
-.teamHeader {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 25px;
-} */

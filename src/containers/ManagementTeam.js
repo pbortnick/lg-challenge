@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import EmployeeCard from '../components/EmployeeCard';
 import aaron from '../images/aaron.png';
-import '../css/flex.css';
+import '../css/Management.css';
 
 const managementTeam = [
   { photo: aaron,
@@ -50,11 +50,13 @@ class ManagementTeam extends Component {
 
   render() {
     return (
-      <div className="ManagementTeamContainer">
-        <div className="teamHeader">Management Team</div>
-        <div className="managementCards">
-          {managementTeam.map(employee => <EmployeeCard employee={employee} />)}
+      <div className="Management">
+        <div className="ManagementTeamContainer">
+          <div className="teamHeader">Management Team</div>
+          <div className="managementCards">
+            {managementTeam.map(employee => <EmployeeCard employee={employee} />)}
           </div>
+        </div>
       </div>
     )
   }

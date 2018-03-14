@@ -1,12 +1,16 @@
-
 * {
   box-sizing: border-box;
 }
 
-.managementCards {
-  width: 1200px;
+.Management {
+  background-color: #eff2f6;
+  width: 100%;
+}
 
-  position: relative;
+.ManagementTeamContainer {
+  display: block;
+  max-width: 1200px;
+  margin:0 auto;
 }
 
 .managementCards {

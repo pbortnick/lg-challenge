@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.Leaders {
+  background-color: #eff2f6;
+  width: 100%;
+}
+
+.LeaderContainer {
+  display: block;
+  max-width: 1200px;
+  margin:0 auto;
+}
+
+.managementCards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.managementCards > .EmployeeCard {
+  margin: 10px;
+}

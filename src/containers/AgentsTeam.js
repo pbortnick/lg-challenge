@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import EmployeeCard from '../components/EmployeeCard';
 import aaron from '../images/aaron.png';
-import '../css/flex.css';
 import '../css/slick.css';
 import Slider from "react-slick";
 
@@ -83,12 +82,14 @@ class AgentsTeam extends Component {
     };
 
     return (
-      <div className="AgentsTeamContainer">
-        <div className="teamHeader">Team Agents</div>
-        <Slider {...settings}>
-          {agentsTeam.map(employee => <EmployeeCard employee={employee}/>)}
-        </Slider>
-      </div>
+      <div className="Agents">
+        <div className="AgentsTeamContainer">
+          <div className="teamHeader">Team Agents</div>
+          <Slider {...settings}>
+            {agentsTeam.map(employee => <EmployeeCard employee={employee}/>)}
+          </Slider>
+        </div>
+    </div>
     )
   }
 }

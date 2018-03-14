@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import EmployeeCard from '../components/EmployeeCard';
 import aaron from '../images/aaron.png';
-import '../css/flex.css';
 import Slider from "react-slick";
 import ReactDOM from "react-dom";
 import '../css/slick.css';

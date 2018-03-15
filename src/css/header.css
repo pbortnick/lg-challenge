@@ -1,10 +1,6 @@
 .NavHeader {
   background-color: #2c333c;
-  width: 100%;
-  max-width: 3600px;
   height: 60px;
-  float: none;
-  position: relative;
 }
 
 .HeaderImage {

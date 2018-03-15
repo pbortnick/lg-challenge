@@ -1,0 +1,16 @@
+.management-cards-container, {
+  display: block;
+  margin:0 auto;
+}
+
+.management-cards-container.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 1200px;
+  margin:0 auto;
+}
+
+.card-container {
+  margin: 10px;
+}

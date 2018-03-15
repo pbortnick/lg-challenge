@@ -1,4 +1,4 @@
-@import "~slick-carousel/slick/slick.css";
+/* @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
 .slick-list {
@@ -6,10 +6,6 @@
   margin-left: 15%;
 }
 
-/* .slick-initialized {
-  width: 1100px;
-  margin-left: 15%;
-} */
 .slick-dots {
   position:relative;
   margin: auto;
@@ -26,10 +22,6 @@
 .slick-vertical .slick-slide {
   height: 180px;
 }
-
-/* .slick-slider {
-  margin: 30px auto 50px;
-} */
 
 .slick-dots li.slick-active button::before{
   border: 2px solid;
@@ -77,4 +69,4 @@
 
 .slick-next {
   margin-right: 100px;
-}
+} */

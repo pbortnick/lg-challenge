@@ -2,9 +2,9 @@ import React from 'react';
 
 const EmployeeCard = ({ employee }) => (
 
-    <div className="CardContainer">
+    <div className="card-container">
       <img src={employee.photo} alt={employee.title} />
-      <div className="cardSubtitle">
+      <div className="card-subtitle">
         <div className="name">{employee.name}</div>
         <div className="position">{employee.position}</div>
         <div className="learn-more">LEARN MORE</div>

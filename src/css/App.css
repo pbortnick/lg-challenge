@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 * {
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: 0;
   text-align: center;
   font-family: "Lato";
 }
 
-.name, .teamHeader {
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.name, .team-header {
   color: #3b4757;
 }
 
-.teamHeader {
+.team-header {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 24px;
@@ -20,7 +29,7 @@
   font-size: 14px;
 }
 
-.cardSubtitle {
+.card-subtitle {
   background: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -33,16 +42,16 @@ div.learn-more {
     padding-top: 4px;
 }
 
-.CardContainer:hover .learn-more {
+.card-container:hover .learn-more {
     display: block;
 }
 
-.CardContainer:hover {
+.card-container:hover {
   transform: scaleY(1.03);
   transform-origin: center;
 }
 
-.CardContainer {
+.card-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -52,7 +61,15 @@ div.learn-more {
   border-radius: 2px;
 }
 
-.Agents, .Management {
+.agents, .management {
   background-color: #eff2f6;
+}
+
+.agents, .management, .leaders {
   width: 100%;
+}
+
+.agents-cards-container, .management-cards-container, .leaders-cards-container {
+  width: 1200px;
+  margin: 0 auto;
 }

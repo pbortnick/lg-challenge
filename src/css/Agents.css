@@ -1,4 +1,4 @@
-.Agents {
+/* .Agents {
   background-color: #eff2f6;
 }
 
@@ -6,9 +6,6 @@
   padding-bottom: 20px;
   height: 1000px;
 }
-
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
 
 .AgentsTeamContainer > .container {
   display: block;
@@ -26,12 +23,6 @@
   -webkit-padding-start: 100px;
   -webkit-padding-end: 100px;
 }
-
-/* .slick-track > .CardContainer {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: right;
-} */
 
 .slick-vertical .slick-slide {
   height: 180px;
@@ -63,4 +54,4 @@
 
 .slick-next:before {
     content: '';
-}
+} */

@@ -17,12 +17,11 @@
   margin-left: 0;
 }
 
-/* .slick-initialized .slick-slider{
-  width: 20px;
-  height: 20px;
-  border: 2px solid;
-  border-radius: 50%;
-} */
+.LeadersTeamContainer .slick-track {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
 
 .slick-vertical .slick-slide {
   height: 180px;

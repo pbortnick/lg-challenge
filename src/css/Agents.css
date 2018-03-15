@@ -4,26 +4,33 @@
 
 .AgentsTeamContainer {
   padding-bottom: 20px;
+  height: 1000px;
 }
 
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-
-.container {
-    margin: 0 auto;
-    width: 100%;
-    position: relative;
-    text-align: center;
+.AgentsTeamContainer > .container {
+  display: block;
+  margin:0 auto;
 }
 
-.Agents > .slick-list {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+.AgentsTeamContainer > .slick-list {
   width: 1200px;
   margin:0 auto;
 }
+
+.AgentsTeamContainer .slick-track{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: right;
+}
+
+/* .slick-track > .CardContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: right;
+} */
 
 .slick-vertical .slick-slide {
   height: 180px;

@@ -17,7 +17,7 @@
     text-align: center;
 }
 
-.Agents > .container {
+.Agents > .slick-list {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;

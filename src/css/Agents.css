@@ -32,3 +32,27 @@
 .slick-slider {
   margin: 30px auto 50px;
 }
+
+.slick-prev img {
+  transform: scaleX(-1);
+  margin-left: 150px;
+}
+
+.slick-next img, .slick-prev img {
+  height: 30px;
+  width: 30px;
+  border: 2px solid;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border-color: #F6F8FC;
+  background: transparent;
+}
+
+.slick-next {
+  margin-right: 100px;
+}
+
+.slick-next:before {
+    content: '';
+}

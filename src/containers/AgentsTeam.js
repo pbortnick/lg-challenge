@@ -69,6 +69,18 @@ const agentsTeam = [
     { photo: aaron,
       name: "Bakhtier Azizbekov",
       position: "Licensed Real Estate Salesperson",
+    },
+    { photo: aaron,
+      name: "Bakhtier Azizbekov",
+      position: "Licensed Real Estate Salesperson",
+    },
+    { photo: aaron,
+      name: "Bakhtier Azizbekov",
+      position: "Licensed Real Estate Salesperson",
+    },
+    { photo: aaron,
+      name: "Bakhtier Azizbekov",
+      position: "Licensed Real Estate Salesperson",
     }
 ];
 

@@ -76,7 +76,6 @@ class LeadersTeam extends Component {
       slidesToShow: 4,
       dots: true,
       slidesToScroll: 4,
-      infinite: true,
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
       speed: 500

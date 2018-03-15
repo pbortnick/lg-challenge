@@ -58,6 +58,7 @@ class ManagementTeam extends Component {
           </div>
         </div>
       </div>
+      
     )
   }
 }

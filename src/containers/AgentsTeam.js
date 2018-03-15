@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import EmployeeCard from '../components/EmployeeCard';
 import aaron from '../images/aaron.png';
-import '../css/slick.css';
+import '../css/Agents.css';
 import Slider from "react-slick";
+import arrow from '../images/arrow.svg';
 
 const agentsTeam = [
   { photo: aaron,
@@ -36,7 +37,8 @@ const agentsTeam = [
   { photo: aaron,
     name: "Bakhtier Azizbekov",
     position: "Licensed Real Estate Salesperson",
-  },  { photo: aaron,
+  },
+  { photo: aaron,
       name: "Khalid Abdel-Hafeez",
       position: "Licensed Real Estate Salesperson",
     },
@@ -70,25 +72,45 @@ const agentsTeam = [
     }
 ];
 
+function SampleNextArrow(props) {
+const {className, onClick} = props
+return (
+  <div className={className} onClick={onClick}>
+    <img src={arrow} alt="arrow" />
+  </div>
+);
+}
+
+function SamplePrevArrow(props) {
+const {className, onClick} = props
+return (
+  <div className={className} onClick={onClick}>
+    <img src={arrow} alt="arrow"/>
+  </div>
+);
+}
+
 class AgentsTeam extends Component {
+render() {
+  var settings = {
+    slidesToShow: 8,
+    dots: true,
+    slidesToScroll: 8,
+    infinite: true,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
+  };
 
-  render() {
-    var settings = {
-      dots: true,
-      speed: 500,
-      slidesToShow: 8,
-      slidesToScroll: 8,
-      infinite: true
-    };
-
-    return (
-      <div className="Agents">
+  return (
+    <div className="Agents">
         <div className="AgentsTeamContainer">
           <div className="teamHeader">Team Agents</div>
+          <div className="container">
           <Slider {...settings}>
             {agentsTeam.map(employee => <EmployeeCard employee={employee}/>)}
           </Slider>
-        </div>
+          </div>
+          </div>
     </div>
     )
   }

@@ -2,7 +2,6 @@ import React from 'react';
 
 const EmployeeCard = ({ employee }) => (
 
-  <div className="EmployeeCard">
     <div className="CardContainer">
       <img src={employee.photo} alt={employee.title} />
       <div className="cardSubtitle">
@@ -11,7 +10,6 @@ const EmployeeCard = ({ employee }) => (
         <div className="learn-more">LEARN MORE</div>
       </div>
     </div>
-  </div>
 )
 
 export default EmployeeCard;

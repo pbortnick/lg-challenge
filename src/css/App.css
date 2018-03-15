@@ -4,14 +4,6 @@
   font-family: "Lato";
 }
 
-.Agents {
-  background-color: #eff2f6;
-}
-
-.AgentsTeamContainer {
-  padding-bottom: 20px;
-}
-
 .name, .teamHeader {
   color: #3b4757;
 }
@@ -58,4 +50,9 @@ div.learn-more {
   display: inline-block;
   border: 0;
   border-radius: 2px;
+}
+
+.Agents, .Management {
+  background-color: #eff2f6;
+  width: 100%;
 }

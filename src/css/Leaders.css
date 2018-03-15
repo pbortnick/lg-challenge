@@ -1,24 +1,81 @@
-* {
-  box-sizing: border-box;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.slick-list {
+  width: 1000px;
+  margin-left: 15%;
 }
 
-.Leaders {
-  background-color: #eff2f6;
-  width: 100%;
+/* .slick-initialized {
+  width: 1100px;
+  margin-left: 15%;
+} */
+.slick-dots {
+  position:relative;
+  margin: auto;
+  bottom: 0;
+  margin-left: 0;
 }
 
-.LeaderContainer {
-  display: block;
-  max-width: 1200px;
-  margin:0 auto;
+/* .slick-initialized .slick-slider{
+  width: 20px;
+  height: 20px;
+  border: 2px solid;
+  border-radius: 50%;
+} */
+
+.slick-vertical .slick-slide {
+  height: 180px;
 }
 
-.managementCards {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+/* .slick-slider {
+  margin: 30px auto 50px;
+} */
+
+.slick-dots li.slick-active button::before{
+  border: 2px solid;
+  border-radius: 50%;
+  width: 11px;
+  height: 11px;
+  background: #6a64fc;
+
 }
 
-.managementCards > .EmployeeCard {
-  margin: 10px;
+.slick-dots li.slick-active button::before {
+    font-weight: 900;
+    font-size: 11px;
+    opacity: 2;
+    color: #6a64fc;
+}
+
+.slick-dots li button::before {
+    opacity: 2;
+    color: transparent;;
+    font-weight: 900;
+    font-size: 11px;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    border-color: #6a64fc;
+}
+
+.slick-prev img {
+  transform: scaleX(-1);
+  margin-left: 150px;
+}
+
+.slick-next img, .slick-prev img {
+  height: 30px;
+  width: 30px;
+  border: 2px solid;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border-color: #F6F8FC;
+  background: transparent;
+}
+
+.slick-next {
+  margin-right: 100px;
 }
